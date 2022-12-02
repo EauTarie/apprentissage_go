@@ -1,2 +1,2 @@
 # apprentissage_go
-premier fichier créée pour apprendre le GO language
+premier fichier créé pour apprendre le GO language
