@@ -11,7 +11,7 @@ type Valentin struct {
 }
 
 func main() {
-	mesCouillesSurUnTatami := Valentin {
+	maSuperbeVariable := Valentin {
 		a: "Valentin",
 		b: 24,
 		c: true,
@@ -29,14 +29,14 @@ func main() {
 		c:false,
 	}
 
-	jeCPoCommentNommerLaVariable := Valentin {"Alexis", 28,false}
+	jeCPoCommentNommerLaVariable := Valentin {"Alexis", 28, false}
 
 
-	fmt.Println(mesCouillesSurUnTatami.a)
+	fmt.Println(maSuperbeVariable.a)
 	fmt.Println(lePlusGrandDesMagiciens.b)
 	fmt.Println(bigConpyuteur)
 	fmt.Println(jeCPoCommentNommerLaVariable.a)
 
 	myContact := newContact("Alex", 30)
-	fmt.Println("Ma fonciton Contact : ", myContact)
+	fmt.Println("Ma fonction Contact : ", myContact)
 }
